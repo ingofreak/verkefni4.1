@@ -24,5 +24,4 @@ def villa(error):
 
 
 
-run(host='localhost', port=8080)
-run()
+run(host='0.0.0.0', port=os.environ.get('PORT'))
