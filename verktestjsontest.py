@@ -1,7 +1,7 @@
 #Ingólfur Óskarsson
 from bottle import *
 import json
-
+import os
 
 '''@route('/')
 def index():
